@@ -206,7 +206,6 @@ foreach(TEST_NAME ${TEST_NAMES})
                 -Wno-deprecated-enum-enum-conversion
                 ${CUSTOM_COMPILE_OPTIONS}>
                 $<$<CXX_COMPILER_ID:MSVC>:/MP
-                /MD
                 /W1
                 /bigobj
                 /wd4624>>)
